@@ -1,0 +1,36 @@
+commit b902782f6cf24237bdedd95f49e0505fae259ded
+Author: pavlinkatt <126609209+pavlinkatt@users.noreply.github.com>
+Date:   Sun Apr 2 20:15:39 2023 +0200
+
+    Fix method sumEvenNumbers
+
+commit 8c68b662e4d45f92d8f4f0b22eb37faa6f63ee61
+Merge: f7f31a6 128bcd2
+Author: pavlinkatt <126609209+pavlinkatt@users.noreply.github.com>
+Date:   Sun Apr 2 20:16:57 2023 +0200
+
+    Merge branch 'bug2'
+
+commit 128bcd2acf3212a17e7dfb17a1909a1f5413b438
+Author: pavlinkatt <126609209+pavlinkatt@users.noreply.github.com>
+Date:   Sun Apr 2 20:14:14 2023 +0200
+
+    Fix wrong condition in filterOddNumbers
+
+commit f7f31a627a0cd2db6b9c72c5825a69cfb8fab44a
+Author: pavlinkatt <126609209+pavlinkatt@users.noreply.github.com>
+Date:   Sun Apr 2 20:13:01 2023 +0200
+
+    Fix wrong loop for reading
+
+commit c6107b0b87b8ddc642ac2ecb51013827e85df825
+Author: pavlinkatt <126609209+pavlinkatt@users.noreply.github.com>
+Date:   Sun Apr 2 20:11:25 2023 +0200
+
+    Add java class
+
+commit a82832620a640367ab96945a1e0f34aa4abcebbc
+Author: pavlinkatt <126609209+pavlinkatt@users.noreply.github.com>
+Date:   Sun Apr 2 20:10:06 2023 +0200
+
+    Initial commit

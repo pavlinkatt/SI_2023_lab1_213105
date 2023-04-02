@@ -1,0 +1,49 @@
+4 Со командата mkdir SI_2023_lab1_213105 го креираме директориумот a со командата cd SI_2023_lab1_213105  влегуваме во истиот. Git се иницијализира во директориумот со наредбата git init 
+
+5 Локалниот репозиториум со оддалечениот репозиториум се поврзува со командата git remote add origin и линкот до нашиот remote репозиториум - git remote add origin https://github.com/pavlinkatt/SI_2023_lab1_213105.git
+
+6 со командата echo # Pavlinka Todorova, 213105 > README.md се креира README.md датотека во која е запишано моето име, презиме и број на индекс. Сo наредбата git add README.md го ставаме фајлот на stage спремен за commit. Commit со порака Initial commit се прави со наредбата git commit -m "Initial commit"
+
+7 Фајлот SILab1.java го додадов со командата echo> SILab1.java потоа овој фајл го отворив во notepad и ја вметнав бараната содржина откако ја направив промената во фајлот со командата git add SILab1.java го ставив на stage, спремен за commit. Commit-от го направив со командата git commit -m "Add java class"
+
+8 Сите гранки со оддалечениот репозиториум се синхронизираат со наредбата git push --all
+
+9 Трите нови гранки се отвараат со следниве команди соодветно git branch bug1 git branch bug2 и git branch bug3
+
+10 За префрлање на гранката bug1 се користи командата git checkout bug1
+
+11 Го отварам фајлот во Notepad ја правам соодветната измена го зачувувам. Со командата git add SILab1.java го ставам фајлот на stage и со наредбата git commit -m "Fix wrong loop for reading"  го комитнувам истиот со соодветната порака
+
+12 На гранката bug2 се префрламе со командата git checkout bug2
+
+13 Го отварам фајлот во Notepad ја правам соодветната измена во метофот filterOddNumbers. Со командата git add SILab1.java го ставам фајлот на stage I со наредбата git commit -m "Fix wrong condition in filterOddNumbers" правам commit на фајлот SILab1.java
+
+14 На bug3 се префрлам со командата git checkout bug3.
+
+15 Во Notepad ги правам бараните измени за методот sumEvenNumbers во фајлот SILab1.java. Го ставам фајлот на stage  со командата git add SILab1.java и на крај правам commit со наредбата git commit -m и соодветната порака.
+
+16 Сите гранки со оддалечениот репозиториум се синхронизираат со наредбата git push --all
+
+17 На гранката master се префрламе со наредбата git checkout master
+
+18 Гранката bug1 кон гранката master се спојува со наредбата git merge bug1, откако ќе се изврши спојувањто може гранката да се избрише со наредбата git branch -d bug1
+
+19 Сите гранки со оддалечениот репозиториум се синхронизираат со наредбата git push --all
+
+20 Гранката bug2 кон гранката master се спојува со наредбата git merge bug2, потоа ја бришам со наредбата git branch -d bug2 
+
+21 Сите гранки со оддалечениот репозиториум се синхронизираат со наредбата git push –all
+
+22 На гранката bug3 се префрламе со наредбата git checkout bug3
+
+23 rebase спрема гранката master оравиме со наредбата git rebase master
+
+24 Се префрлуваме на гранката master со наредбата git checkout master
+
+25 Со командата git merge bug3 ја спојуваме гранката bug3 кон master и потоа ја бришам со наредбата git branch -d bug2
+
+26 Со командтата git push --all –force ги синхронизирам сите 3 гранки со оддалечениот репозиториум
+
+27 Со наредбата git log > logs.txt се додава датотеката Logs.txt и во неа се вметнуваат сите доегашни git log-ови . Со git add log.txt се става на stage. Веќе креираната датотека 213105.txt во која ја водев мојата досегашна документација ја ставам на stage со наредбата git add 213105.txt и го правам последниот commit со наредбата git commit -m "Final commit"
+
+28 Сите гранки со оддалечениот репозиториум се синхтронизираат со наредбата git push --all
